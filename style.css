@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 55vh;
+    max-width: 370px;
+    width: 100%;
+    margin: auto;
+    top: 25vh;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.picture-div{
+    height: 17vh;
+    width: 100%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: #4070f4;
+}
+.picture{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    top: 12px;
+    position: relative;
+    margin: auto;
+    background-color: #4070f4;
+    padding: 3px;
+}
+
+.picture-div .picture .profile-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+.container .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7vh;
+}
+.text-data .company{
+    font-size: 19px;
+    font-weight: 700;
+}
+.gola{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.gola .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: #4070f4;
+    text-decoration: none;
+}
+
+.size{
+    font-size: 25px;
+    position: relative;
+    top: 1.4vh;
+    margin: 0;
+    padding: 5px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn1{
+    padding: 8px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 10px;
+    border-radius: 24px;
+    background-color: #4070f4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    padding: 8px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 10px;
+    border-radius: 24px;
+    background-color: #4070f4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn .btn1:hover{
+    font-weight: 800;
+}
+.btn .btn2:hover{
+    font-weight: 800;
+}
+.container .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icons .data{
+    display: flex;
+    align-items: center;
+    color: #333;
+    padding: 0 20px;
+    border-right: 2px solid #e7e7e7e7;
+}
+.data:last-child{
+    border-right: none;
+}
+
+.data i{
+    font-size: 18px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.data .number{
+    position: relative;
+    top: 11px;
+}
